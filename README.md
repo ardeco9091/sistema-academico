@@ -37,7 +37,7 @@ curl -X POST http://127.0.0.1:5000/estudiantes \
 
 ## ☁️ Despliegue en Heroku
 ```bash
-heroku create sistema-academico-gabriel
+heroku create sistema-academico
 git push heroku main
 heroku ps:scale web=1
 heroku open
