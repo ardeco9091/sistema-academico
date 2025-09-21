@@ -43,7 +43,7 @@ heroku ps:scale web=1
 heroku open
 ```
 
-## 🧪 Ejemplo de payload
+## 💉 Ejemplo de payload
 ```json
 {
   "estudiantes": [
