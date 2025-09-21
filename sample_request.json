@@ -1,0 +1,37 @@
+{
+  "estudiantes": [
+    {
+      "nombre": "Ana",
+      "apellido": "García",
+      "dni": "12345678",
+      "edad": 20,
+      "notas": [
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "nombre": "Luis",
+      "apellido": "Pérez",
+      "dni": "87654321",
+      "edad": 22,
+      "notas": [
+        6,
+        7,
+        5
+      ]
+    },
+    {
+      "nombre": "Marta",
+      "apellido": "López",
+      "dni": "11223344",
+      "edad": 21,
+      "notas": [
+        10,
+        9,
+        9
+      ]
+    }
+  ]
+}
