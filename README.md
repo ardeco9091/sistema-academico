@@ -1,11 +1,11 @@
-# Sistema Académico (Promedios + Ordenamiento) 🎓
+# Sistema Académico (Promedios + Ordenamiento) 
 
 API y librería en Python que:
 - Calcula **promedio** por estudiante (2 decimales).
 - **Ordena** estudiantes de **nota más alta a más baja**.
 - Devuelve **nombre, apellido, DNI, edad y promedio**.
 
-## 📦 Estructura
+##  Estructura
 - `sistema.py` → lógica de negocio.
 - `app.py` → API Flask (`/` y `/estudiantes`).
 - `test_sistema.py` → pruebas unitarias con `pytest`.
@@ -14,7 +14,7 @@ API y librería en Python que:
 - `render.yaml` → despliegue rápido en Render.
 - `sample_request.json` → ejemplo de payload.
 
-## ▶️ Uso local
+##  Uso local
 ```bash
 pip install -r requirements.txt
 pytest -q
@@ -84,5 +84,5 @@ heroku open
 }
 ```
 
-## ✅ Respuesta esperada
+##  Respuesta esperada ✅
 Lista de estudiantes **ordenada** por `promedio` (descendente).
